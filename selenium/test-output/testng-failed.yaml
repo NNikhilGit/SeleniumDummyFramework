@@ -1,0 +1,11 @@
+name: Failed suite [Default suite]
+configFailurePolicy: skip
+tests:
+  - name: Default test(failed)
+    classes:
+      - name: selenium.Assignment
+        includedMethods:
+          - tearDown
+          - setup
+          - loginTestCase
+

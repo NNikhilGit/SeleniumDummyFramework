@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18123" started-at="2019-09-14T09:37:55Z" finished-at="2019-09-14T09:38:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18123" started-at="2019-09-14T09:37:55Z" finished-at="2019-09-14T09:38:13Z">
+      <class name="selenium.Assignment">
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenium.Assignment@77cd7a0]" name="setup" is-config="true" duration-ms="11326" started-at="2019-09-14T15:07:56Z" finished-at="2019-09-14T15:08:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTestCase(java.lang.String, java.lang.String)[pri:0, instance:selenium.Assignment@77cd7a0]" name="loginTestCase" duration-ms="4932" started-at="2019-09-14T15:08:07Z" data-provider="getLoginData" finished-at="2019-09-14T15:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikhil.kale@bnt-soft.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:selenium.Assignment@77cd7a0]" name="tearDown" is-config="true" duration-ms="996" started-at="2019-09-14T15:08:12Z" finished-at="2019-09-14T15:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- selenium.Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
